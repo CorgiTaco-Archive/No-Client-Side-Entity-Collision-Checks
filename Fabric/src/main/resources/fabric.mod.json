@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "entitycollisionfpsfix",
+  "version": "${version}",
+  "name": "Entity Collision FPS Fix",
+  "description": "Removes client side collision checks, which boosts FPS. Fixes https://bugs.mojang.com/browse/MC-228976",
+  "authors": [
+    "Corgi Taco",
+    "jklw10"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CorgiTaco/No-Client-Side-Entity-Collision-Checks",
+    "sources": "https://github.com/CorgiTaco/No-Client-Side-Entity-Collision-Checks"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "corgitaco.entitycollisionfpsfix.EntityCollisionFpsFixFabric"
+    ]
+  },
+  "mixins": [
+    "entitycollisionfpsfix.mixins.json",
+    "entitycollisionfpsfix.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13",
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "java": ">=17"
+  }
+}
+  
