@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "corgitaco.entitycollisionfpsfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "entitycollisionfpsfix.refmap.json",
+  "mixins": [
+    "MixinLivingEntity"
+  ],
+  "client": [
+    "MixinEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
