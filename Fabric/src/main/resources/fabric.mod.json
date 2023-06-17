@@ -13,7 +13,7 @@
     "sources": "https://github.com/CorgiTaco/No-Client-Side-Entity-Collision-Checks"
   },
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/entitycollisionfpsfix/entitycollisionfpsfix.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -27,7 +27,7 @@
   "depends": {
     "fabricloader": ">=0.13",
     "fabric": "*",
-    "minecraft": ">=1.18.2",
+    "minecraft": ">=1.19",
     "java": ">=17"
   }
 }

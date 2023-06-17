@@ -7,7 +7,7 @@ modId="entitycollisionfpsfix"
 version="${file.jarVersion}" #mandatory
 displayName="Entity Collision FPS Fix" #mandatory
 displayURL="https://github.com/CorgiTaco/No-Client-Side-Entity-Collision-Checks" #optional
-logoFile="multiloader.png" #optional
+logoFile="assets/entitycollisionfpsfix/entitycollisionfpsfix.png" #optional
 credits="jklw10 for report on https://bugs.mojang.com/browse/MC-228976" #optional
 authors="Corgi Taco, jklw10"
 description='''
@@ -30,6 +30,6 @@ Removes client side collision checks, which boosts FPS. Fixes https://bugs.mojan
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.18.2,)"
+    versionRange="[1.19,)"
     ordering="NONE"
     side="CLIENT"
